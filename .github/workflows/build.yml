@@ -16,3 +16,6 @@ jobs:
   build-and-push-image:
     name: Build and Push Docker Image
     uses: ls1intum/.github/.github/workflows/build-and-push-docker-image.yml@main
+    permissions:
+      contents: read
+      packages: write
